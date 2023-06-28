@@ -37,8 +37,6 @@ h1 {
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
-  padding: 5px;
-  border: solid #D0F5BE;
   background-color: #D0F5BE;
 }
 
@@ -61,5 +59,7 @@ address{
 }
 
 footer{
-  background-color: #79E0EE;  
+  background-color: #79E0EE;
+  text-align: center; 
+   
 }
