@@ -50,8 +50,7 @@ h3{
 }
 
 .link{
-  position: absolute;
-  left: 260px; 
+  margin: 0 auto;
 }
 
 address{
