@@ -22,12 +22,13 @@ li{
   margin-left: 12px;
   color: #393E46;
 }
-
-.Menu{
-
+/*
+.li{
+  display: inline;
+  list-style-type: none;
 }
 
-/*
+
 .containernav{
   display: flex;
   justify-content: space-around;
