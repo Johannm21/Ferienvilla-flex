@@ -22,22 +22,16 @@ li{
   margin-left: 12px;
   color: #393E46;
 }
-/*
-.li{
-  display: inline;
-  list-style-type: none;
+
+.nav1 {
+  position: relative;
+  bottom: 55px; left: 10px;
 }
 
-
-.containernav{
-  display: flex;
-  justify-content: space-around;
+.nav2{
+  position: relative;
+  top: 50px; left: 35px;
 }
-
-.container{
-  display: flex;
-  justify-content: space-around;
-}*/
 
 .containerimg{
   display: flex;
