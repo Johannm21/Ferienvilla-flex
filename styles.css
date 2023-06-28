@@ -33,6 +33,12 @@ li{
   top: 50px; left: 35px;
 }
 
+.containerform{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
 .containerimg{
   display: flex;
   justify-content: space-around;

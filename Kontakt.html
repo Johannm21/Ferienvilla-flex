@@ -16,25 +16,31 @@
       <h1>Kontakt</h1>
     </header>
     <main>
+      <div class="containerform">
       <form action="action_page.php">
         <label for="nname">Nachname</label><br>
         <input type="text" id="nname" name="nname" value=""><br>
         <label for="Vname">Vorname</label><br>
         <input type="text" id="Vname" name="Vname" value=""> <br>
-        <label for="straße">Straße & Hausnummer</label> <br>
-        <input type="text" id="straße" name="straße" value=""> <br>
-        <label for="ort">Ort</label><br>
-        <input type="text" id="ort" name="ort" value=""><br>
         <label for="Haustier">Mitreisende Haustiere</label><br>
         <select name="Haustier" id="Haustier">
           <option value=""></option>
           <option value="Ja">Ja</option>
           <option value="Nein">Nein</option>
         </select> <br>
-        <label for="Datenschutzerklärung">Annerkennen & gelesen der Datenschutzerklärung.</label>
+        
         <input type="checkbox"><br>
         <input type="submit" value="Bestätigen">
       </form>
+
+      <form action="action_page.php">
+      <label for="straße">Straße & Hausnummer</label> <br>
+      <input type="text" id="straße" name="straße" value=""> <br>
+      <label for="ort">Ort</label><br>
+      <input type="text" id="ort" name="ort" value=""><br>
+      <label for="Datenschutzerklärung">Annerkennen & gelesen der Datenschutzerklärung.</label>
+      </form>
+      </div>
       <div>
       <h2> Anreisemöglichkeiten </h2>
       
@@ -48,6 +54,8 @@
     Galaxystraße 26 |
     01726 Theed  |
     Naboo
-  </address></footer>
+  </address>
+  <a href="">Nach Oben</a>
+</footer>
   </body>
 </html>
