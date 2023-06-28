@@ -23,10 +23,26 @@ li{
   color: #393E46;
 }
 
-img{
-  display: block;
-  margin: 0 auto;
+.Menu{
+
 }
+
+/*
+.containernav{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}*/
+
+.containerimg{
+  display: flex;
+  justify-content: space-around;
+}
+
 
 iframe{
   display: block;
